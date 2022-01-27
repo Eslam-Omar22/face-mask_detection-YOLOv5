@@ -48,10 +48,10 @@ def infer_single_image(weights, img_path):
 
 if __name__ == '__main__':
 
-    weihgts = '/home/eslam/Main/projects/Face Mask Detection/yolov5/best.pt'
+    weihgts = '' # best.pt path
 
-    folder = glob.glob("yolov5/images/*")
-    image_path = '/home/eslam/Main/projects/Face Mask Detection/new data/aug_26.jpg'
-    video_path = ''
+    folder = glob.glob("yolov5/images/*") # add your images folder path here
+    image_path = '' # add image path
+    video_path = '' #add image path
     infer_webcam_or_vid(weihgts)
     # infer_single_image(weihgts, image_path)
