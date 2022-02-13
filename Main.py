@@ -48,7 +48,7 @@ def infer_single_image(weights, img_path):
 
 if __name__ == '__main__':
 
-    weihgts = '' # best.pt path
+    weihgts = './yolov5/best.pt' # best.pt path
 
     folder = glob.glob("yolov5/images/*") # add your images folder path here
     image_path = '' # add image path
